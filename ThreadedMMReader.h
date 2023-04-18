@@ -186,7 +186,7 @@ void ThreadedMMReader(const string & filename, vector<IT> & allrows, vector<IT> 
         }
     }
 	infile.close();
-	ncols++;
+	nrows++;
 	ncols = nrows;
 	cout << "NRows : " << nrows << endl;
 
